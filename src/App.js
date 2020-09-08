@@ -1,10 +1,10 @@
 import React from 'react';
 import './index.css';
-import Index from './component/index/index';
+import Index from './component/home';
 import { Route, Switch } from 'react-router-dom'
-import Aboutme from './component/aboutme/index';
-import Contact from './component/contact/index';
-import Portfolio from './component/protfolio/index';
+import Aboutme from './component/aboutme';
+import Contact from './component/contact';
+import Portfolio from './component/portfolio';
 
 
 
