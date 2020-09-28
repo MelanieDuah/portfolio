@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.127b988c.chunk.css",
-    "main.js": "/portfolio/static/js/main.e73bdb82.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e73bdb82.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.1c1eb1f9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1c1eb1f9.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3d7f4cc0.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.3d7f4cc0.js.map",
-    "static/js/2.ff57ede9.chunk.js": "/portfolio/static/js/2.ff57ede9.chunk.js",
-    "static/js/2.ff57ede9.chunk.js.map": "/portfolio/static/js/2.ff57ede9.chunk.js.map",
+    "static/js/2.0c4d8679.chunk.js": "/portfolio/static/js/2.0c4d8679.chunk.js",
+    "static/js/2.0c4d8679.chunk.js.map": "/portfolio/static/js/2.0c4d8679.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.84b94bc5f738a1369587a93ae4277a75.js": "/portfolio/precache-manifest.84b94bc5f738a1369587a93ae4277a75.js",
+    "precache-manifest.4d03f324d45d2dec8b08d2480cbfce0e.js": "/portfolio/precache-manifest.4d03f324d45d2dec8b08d2480cbfce0e.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.127b988c.chunk.css.map": "/portfolio/static/css/main.127b988c.chunk.css.map",
-    "static/js/2.ff57ede9.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ff57ede9.chunk.js.LICENSE.txt",
+    "static/js/2.0c4d8679.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0c4d8679.chunk.js.LICENSE.txt",
     "static/media/daylytracker.png": "/portfolio/static/media/daylytracker.7c0999e5.png",
+    "static/media/gardenhelper.png": "/portfolio/static/media/gardenhelper.c0bc54f8.png",
     "static/media/index.css": "/portfolio/static/media/hero2.29e1f680.png",
     "static/media/image2.png": "/portfolio/static/media/image2.3bd54d98.png",
     "static/media/image7.jpg": "/portfolio/static/media/image7.716e1c25.jpg",
+    "static/media/moviegenre.png": "/portfolio/static/media/moviegenre.298fadb4.png",
     "static/media/notetaker.png": "/portfolio/static/media/notetaker.b7e36912.png",
     "static/media/password.png": "/portfolio/static/media/password.df5cf8d6.png",
     "static/media/quiz.png": "/portfolio/static/media/quiz.d741f766.png",
@@ -24,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3d7f4cc0.js",
-    "static/js/2.ff57ede9.chunk.js",
+    "static/js/2.0c4d8679.chunk.js",
     "static/css/main.127b988c.chunk.css",
-    "static/js/main.e73bdb82.chunk.js"
+    "static/js/main.1c1eb1f9.chunk.js"
   ]
 }
