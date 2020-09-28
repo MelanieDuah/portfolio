@@ -1,6 +1,5 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import photo from '../images/image7.jpg';
 import { MailSlurp } from "mailslurp-client";
 import Navigation from './navigation';
 import Footer from './footer';
@@ -88,7 +87,6 @@ class Contact extends React.Component {
                         </div>
                     </div>
                 </div>
-                <Footer/>
             </div >
         )
     }

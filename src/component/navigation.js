@@ -15,7 +15,7 @@ class Navigation extends React.Component{
                         <div className="navbar-nav">
                             <NavLink className="nav-item nav-link active text-light" to="/">Home</NavLink>
                             <NavLink className="nav-item nav-link active text-light" to="/about">About</NavLink>
-                            <NavLink className="nav-item nav-link active text-light" to="/portfolio">Projects</NavLink>
+                            <NavLink className="nav-item nav-link active text-light" to="/projects">Projects</NavLink>
                             <NavLink className="nav-item nav-link active text-light" to="/contact">Contact</NavLink>
                         </div>
                     </div>

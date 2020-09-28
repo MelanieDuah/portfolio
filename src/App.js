@@ -4,7 +4,7 @@ import Index from './component/home';
 import { Route, Switch } from 'react-router-dom'
 import Aboutme from './component/aboutme';
 import Contact from './component/contact';
-import Portfolio from './component/portfolio';
+import Projects from './component/projects';
 
 
 
@@ -13,7 +13,7 @@ export default function App() {
         <Switch>
             <Route exact path='/' component={Index} />
             <Route path='/about' component={Aboutme} />
-            <Route path='/portfolio' component={Portfolio} />
+            <Route path='/projects' component={Projects} />
             <Route path='/contact' component={Contact} />
         </Switch>
     );
