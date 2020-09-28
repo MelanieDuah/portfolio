@@ -32,6 +32,18 @@ class Projects extends React.Component {
                                 <div className="carousel-item">
                                     <img className="d-block w-100 img-fluid img-rounded" src={Notetaker} alt="Third slide" />
                                 </div>
+                                <div className="carousel-item">
+                                    <img className="d-block w-100 img-fluid img-rounded" src={Password} alt="fourth slide" />
+                                </div>
+                                <div className="carousel-item">
+                                    <img className="d-block w-100 img-fluid img-rounded" src={Quiz} alt="fiveth slide" />
+                                </div>
+                                <div className="carousel-item">
+                                    <img className="d-block w-100 img-fluid img-rounded" src={Transaction} alt="sixth slide" />
+                                </div>
+                                <div className="carousel-item">
+                                    <img className="d-block w-100 img-fluid img-rounded" src={Image} alt="seventh slide" />
+                                </div>
                             </div>
                             <a className="carousel-control-prev" href="#projectcarousel" role="button" data-slide="prev">
                                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
