@@ -13,10 +13,10 @@ class Navigation extends React.Component{
                     </button>
                     <div className="collapse navbar-collapse" id="navbarToggler">
                         <div className="navbar-nav">
-                            <NavLink className="nav-item nav-link active text-light" to="/">Home</NavLink>
-                            <NavLink className="nav-item nav-link active text-light" to="/about">About</NavLink>
-                            <NavLink className="nav-item nav-link active text-light" to="/projects">Projects</NavLink>
-                            <NavLink className="nav-item nav-link active text-light" to="/contact">Contact</NavLink>
+                            <NavLink className="nav-item nav-link active text-light" to="/portfolio/">Home</NavLink>
+                            <NavLink className="nav-item nav-link active text-light" to="/portfolio/about">About</NavLink>
+                            <NavLink className="nav-item nav-link active text-light" to="/portfolio/projects">Projects</NavLink>
+                            <NavLink className="nav-item nav-link active text-light" to="/portfolio/contact">Contact</NavLink>
                         </div>
                     </div>
                 </nav>

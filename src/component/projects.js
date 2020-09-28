@@ -5,7 +5,9 @@ import Notetaker from '../images/notetaker.png';
 import Password from '../images/password.png';
 import Quiz from '../images/quiz.png';
 import Transaction from '../images/transaction.png';
-import Image from '../images/image2.png'
+import Image from '../images/image2.png';
+import GardenHelper from '../images/gardenhelper.png';
+import MovieGenre from '../images/moviegenre.png';
 import Navigation from './navigation';
 import Footer from './footer';
 
@@ -25,6 +27,12 @@ class Projects extends React.Component {
                             <div className="carousel-inner w-100">
                                 <div className="carousel-item active">
                                     <img className="w-100 img-fluid img-rounded" src={weather} alt="First slide" />
+                                </div>
+                                 <div className="carousel-item">
+                                    <img className="w-100 img-fluid img-rounded" src={GardenHelper} alt="First slide" />
+                                </div>
+                                <div className="carousel-item">
+                                    <img className="d-block w-100 img-fluid img-rounded" src={MovieGenre} alt="Second slide" />
                                 </div>
                                 <div className="carousel-item">
                                     <img className="d-block w-100 img-fluid img-rounded" src={Dailytracker} alt="Second slide" />
@@ -55,6 +63,7 @@ class Projects extends React.Component {
                             </a>
                         </div>
                     </div>
+                    <Footer/>
                 </div>
             </div>
         )

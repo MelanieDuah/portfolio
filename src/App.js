@@ -11,10 +11,10 @@ import Projects from './component/projects';
 export default function App() {
     return (
         <Switch>
-            <Route exact path='/' component={Index} />
-            <Route path='/about' component={Aboutme} />
-            <Route path='/projects' component={Projects} />
-            <Route path='/contact' component={Contact} />
+            <Route exact path='/portfolio' component={Index} />
+            <Route path='/portfolio/about' component={Aboutme} />
+            <Route path='/portfolio/projects' component={Projects} />
+            <Route path='/portfolio/contact' component={Contact} />
         </Switch>
     );
 }

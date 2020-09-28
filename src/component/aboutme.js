@@ -24,8 +24,8 @@ class AboutMe extends React.Component {
                                         <img className='float-left img-fluid mr-3' alt='hero' src={photo} />
                                         <p className="text-justify lead">I'm a web developer.</p>
                                         <p className="text-justify">
-                                         I am a creative and resourceful individual with an educational background in Economics and newly acquired skills in Javascript, Node.js, MySQL MongoDB among others and looking to kickstart a career in Web Development.
-                                         I am proactive and highly reliable with excellent communication skills, both written and verbal. I am hardworking, driven, and adept at leveraging sound analytical and problem solving skills to design and develop web applications 
+                                            I am a creative and resourceful individual with an educational background in Economics and newly acquired skills in Javascript, Node.js, MySQL MongoDB among others and looking to kickstart a career in Web Development.
+                                            I am proactive and highly reliable with excellent communication skills, both written and verbal. I am hardworking, driven, and adept at leveraging sound analytical and problem solving skills to design and develop web applications
                                         </p>
                                         <p className="text-justify">
                                             I am fueled by my passion for problem solving and continous learning of new technologies.
@@ -36,24 +36,26 @@ class AboutMe extends React.Component {
                                             My hunger for knowledge and determination to constantly evolve and acquire new skills is what contributed to my decision pick up programming and web development.
                                             I believe in mindfulness, maintaining a postive outlook all the time, and staying healthy. These are tenets I live out through my interests in meditation, reading, and working out.
                                             I am currently completing a web development bootcamp program at Northwestern University and I am looking forward to the next challenge.
-                                        <NavLink to="/contact"> Reach out to me and lets connect!</NavLink>
+                                        <NavLink to="/portfolio/contact"> Reach out to me and lets connect!</NavLink>
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div className='row'>
                                 <div className='col-sm-12'>
-                                    <div className="d-flex flex-row justify-content-end my-1 mr-4">
-                                        <NavLink className="mr-4" to="https://www.facebook.com/melanie.duah"><i
-                                            className="fa fa-facebook-square"></i></NavLink>
-                                        <NavLink className="mr-4" to="https://www.instagram.com/iam_melanie/"><i
-                                            className="fa fa-instagram"></i></NavLink>
-                                        <NavLink to="melanieduah@gmail.com"><i className="fa fa-envelope-square"></i></NavLink>
+                                    <div className="d-flex flex-row justify-content-end my-4 mr-4">
+                                        <a className="mr-4" href="https://www.facebook.com/melanie.duah"><i
+                                            className="fa fa-facebook-square"></i></a>
+                                        <a className="mr-4" href="https://www.instagram.com/iam_melanie/"><i
+                                            className="fa fa-instagram"></i></a>
+                                        <a href="melanieduah@gmail.com"><i className="fa fa-envelope-square"></i></a>
+                                        <a className="ml-3" href="https://www.linkedin.com/in/melanie-duah-9370381a1/"><i className='fa fa-linkedin'></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <Footer />
                 </div>
             </div>
         )

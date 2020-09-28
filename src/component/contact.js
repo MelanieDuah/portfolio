@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import { MailSlurp } from "mailslurp-client";
 import Navigation from './navigation';
 import Footer from './footer';
@@ -78,15 +77,17 @@ class Contact extends React.Component {
                                 </form>
                             </div>
                             <div className="d-flex flex-row justify-content-end my-4 mr-4">
-                                <NavLink className="mr-4" to="https://www.facebook.com/melanie.duah"><i
-                                    className="fa fa-facebook-square"></i></NavLink>
-                                <NavLink className="mr-4" to="https://www.instagram.com/iam_melanie/"><i
-                                    className="fa fa-instagram"></i></NavLink>
-                                <NavLink to="melanieduah@gmail.com"><i className="fa fa-envelope-square"></i></NavLink>
+                                <a className="mr-4" href="https://www.facebook.com/melanie.duah"><i
+                                    className="fa fa-facebook-square"></i></a>
+                                <a className="mr-4" href="https://www.instagram.com/iam_melanie/"><i
+                                    className="fa fa-instagram"></i></a>
+                                <a href="melanieduah@gmail.com"><i className="fa fa-envelope-square"></i></a>
+                                <a className="ml-3" href="https://www.linkedin.com/in/melanie-duah-9370381a1/"><i className='fa fa-linkedin'></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div >
         )
     }
